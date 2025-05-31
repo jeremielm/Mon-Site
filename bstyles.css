@@ -1,0 +1,17 @@
+html{
+	max-height: 100%
+}
+body{
+	min-height: 100%
+	padding: 0;
+}
+div.blue{
+	background-color: blue;
+	height: 160px;
+}
+
+
+h1{
+	text-align:center;
+	color: #ffffff;
+}

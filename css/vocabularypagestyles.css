@@ -1,0 +1,155 @@
+/* aspect général de la page */
+
+header{
+	background-color: rgb(4, 36, 124);
+	border: 1px solid #630929;
+	opacity: 0.9;
+	padding: 10px;
+}
+
+div.userContentOne{
+	margin-left: auto;
+	margin-right: auto;
+	width: 90%;
+	height: 100%;
+	
+}
+
+div.cardDeck{
+	display: inline-flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	width: 100%;
+	padding: 15px;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+
+div.nouns,div.verbs,div.adjectives,div.adverbs{
+	width: 100%;
+	padding-left: 15px;
+	padding-top: 10px;	
+	border-bottom: solid 2px rgb(4, 36, 124);
+}
+
+div.nouns{
+	border-bottom: solid 2px rgb(178, 26, 26);
+}
+
+div.verbs{
+	border-bottom: solid 2px rgb(45, 178, 26);
+}
+
+div.adjectives{
+	border-bottom: solid 2px rgb(26, 121, 178);
+}
+
+div.adverbs{
+	border-bottom: solid 2px rgb(124, 26, 178);
+}
+
+h1.noun,h1.verb,h1.adjective,h1.adverb{
+	font-family: "Myriad Pro", Arial, Trebuchet, sans-serif;
+	font-size: 4vw;
+	color: rgb(4, 36, 124);
+	text-align: left;
+}
+
+h1.noun{
+	color: rgb(178, 26, 26);
+}
+
+h1.verb{
+	color: rgb(45, 178, 26);
+}
+
+h1.adjective{
+	color: rgb(26, 121, 178);
+}
+
+h1.adverb{
+	color: rgb(124, 26, 178);
+}
+
+h3.word{
+	text-align: center;
+	font-family: "Myriad Pro", Arial, Trebuchet, sans-serif;
+}
+
+
+div.cardDeck div.cardNoun{
+	padding: 10px;
+	text-align: center;
+	flex-wrap: wrap;
+
+
+}
+
+div.cardDeck div.cardNoun img{
+	border-style: solid;
+	border-width: 2px;
+	border-color: rgb(178, 26, 26);
+	border-radius: 7px;
+	box-shadow: 4px 4px 8px #aaa;
+}
+
+div.cardDeck div.cardNoun h3.word{
+	color: rgb(178, 26, 26);
+}
+
+div.cardDeck div.cardVerb{
+	padding: 10px;
+	text-align: center;
+
+}
+
+div.cardDeck div.cardVerb img{
+	border-style: solid;
+	border-width: 2px;
+	border-color: rgb(45, 178, 26);
+	border-radius: 7px;
+	box-shadow: 4px 4px 8px #aaa;
+}
+
+div.cardDeck div.cardVerb h3.word{
+	color: rgb(45, 178, 26);
+}
+
+div.cardDeck div.cardAdjective{
+	padding: 10px;
+	text-align: center;
+
+}
+
+div.cardDeck div.cardAdjective img{
+	border-style: solid;
+	border-width: 2px;
+	border-color: rgb(26, 121, 178);
+	border-radius: 7px;
+	box-shadow: 4px 4px 8px #aaa;
+}
+
+div.cardDeck div.cardAdjective h3.word{
+	color: rgb(26, 121, 178);
+}
+
+
+div.cardDeck div.cardAdverb{
+	padding: 10px;
+	text-align: center;
+
+}
+
+div.cardDeck div.cardAdverb img{
+	border-style: solid;
+	border-width: 2px;
+	border-color: rgb(124, 26, 178);
+	border-radius: 7px;
+	box-shadow: 4px 4px 8px #aaa;
+}
+
+div.cardDeck div.cardAdverb h3.word{
+	color: rgb(124, 26, 178);
+}

@@ -1,0 +1,253 @@
+div.userContentOne{
+	margin-left: auto;
+	margin-right: auto;
+	width: 90%;
+	height: 100%
+}
+
+/*aspect général de la page*/
+
+/*boutons*/
+
+input[type="submit"], input[type="button"]{
+	margin: 0 auto;
+	margin-top: 20px;
+	background-color: rgb(4, 36, 124);
+	color: #ffffff;
+	font-family: "Myriad Pro", Arial, Trebuchet, sans-serif;
+	font-size: 20px;
+	width: 70%;
+	height: 50px;
+	border-radius: 7px;
+	border: none;
+	display: block;
+}
+
+input[type="submit"]:hover, input[type="button"]:hover{
+	background-color: rgb(92, 116, 172);
+	transition: 0.3s;
+}
+
+input[type="submit"]:active, input[type="button"]:active{
+	background-color: rgb(4, 36, 124);
+	color: rgb(204, 20, 44);
+	transition: 0.1s;
+}
+
+/* fin des boutons */
+
+header.lesson{
+	background-color: rgb(4, 36, 124);
+	border: 1px solid #630929;
+	opacity: 0.9;
+	padding: 10px;
+}
+
+h1.head{
+	font-family:"Myriad Pro", Arial, Trebuchet, sans-serif;
+	color: #ffffff;
+	font-size: 4vw;
+	text-decoration: none;
+}
+
+div.objectifs,div.vocabulary,div.containerPlayer,div.grammar,div.idioms,div.phonology,div.ecriture,div.nextLesson{
+	background-color: rgba(189, 200, 221, 0.5);
+	border-style: solid;
+	border-width: 2px;
+	border-color: rgb(4, 36, 124);
+	padding: 5px;
+	margin: 5px;
+	font-family: "Myriad Pro", Arial, Trebuchet, sans-serif;
+	border-radius: 7px;
+}
+
+div.objectifs{
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div.objectifs h5,div.vocabulary h5,div.grammar h5,div.idioms h5,div.phonology h5,div.containerPlayer h5,div.ecriture h5,div.nextLesson h5{
+	color: rgb(4, 36, 124);
+	font-family: "Myriad Pro", Arial, Trebuchet, sans-serif;
+	font-weight: bold;
+	text-align: center;
+}
+
+div.containerPlayer{
+	width:50%;
+	display: block;
+}
+
+div.player{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	overflow: hidden;
+	padding-bottom: 56.25%;
+	position: relative;
+	height: 0;
+}
+
+div.player iframe{
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+}
+
+div.grammar,div.vocabulary,div.idioms{
+	width: 32%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div.phonology{
+	width: 49%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div.containerPlayer{
+	width: 49%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div.ecriture{
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+textarea.answer{
+	width: 100%;
+	resize: none;
+	border: 1px solid rgb(4, 36, 124);
+	font-family: "Myriad Pro", Arial, Trebuchet, sans-serif;
+	font-size: 1.3vw;
+	color: rgb(4, 36, 124);
+}
+
+
+div.nextLesson{
+	width: 100%;
+}
+
+div.evaluation{
+	width:100%;
+	background-color: rgb(4, 36, 124);
+	border: 1px solid #630929;
+	opacity: 0.9;
+	padding: 10px;
+	border-radius: 7px	
+}
+
+input[name="save"]{
+	border: solid 2px;
+	border-color: #ffffff;
+}
+
+h5.evaluation{
+	font-family: "Myriad Pro", Arial, Trebuchet, sans-serif;
+	color: #ffffff;
+	font-size: 2vw;
+	text-align: center;
+}
+
+h5.objectif{
+	font-family: "Myriad Pro", Arial, Trebuchet, sans-serif;
+	color: #ffffff;
+	font-size: 1.5vw;
+}
+
+h6.source{
+	font-family: "Myriad Pro", Arial, Trebuchet, sans-serif;
+	color: rgb(4, 36, 124);
+	font-style: italic;
+	text-align: right;
+}
+
+a.nextLesson{
+	font-family: "Myriad Pro", Arial, Trebuchet, sans-serif;
+	color: rgb(4, 36, 124);
+	text-decoration: none;
+}
+
+a.nextLesson:hover{
+	color: #ffffff;
+	transition: 0.2s all;
+}
+
+a.nextLesson:active{
+	color: rgb(204, 20, 44);
+}
+
+/*order*/
+div.objectifs{order: 0;}
+div.vocabulary{order: 1;}
+div.grammar{order: 2;}
+div.idioms{order: 3;}
+div.phonology{order: 4;}
+div.containerPlayer{order: 5;}
+div.ecriture{order: 6;}
+div.evaluation{order: 7;}
+div.nextLesson{order: 8;}
+input[type="buttonRetour"]{order: 9;}
+
+/* gestion responsive de la page et media queries */
+
+@media(min-width: 768px) and (max-width: 1024px){
+	textarea.answer{
+		font-size: 1.7vw;
+	}
+
+	h5.evaluation{
+		font-size: 2.3vw;
+	}
+
+	h5.objectif{
+		font-size: 1.7vw;
+	}
+}
+
+/*small screens*/
+
+@media (max-width: 767px){
+
+	div.objectifs,div.vocabulary,div.grammar,div.idioms,div.phonology,div.containerPlayer{
+		width: 100%;
+	}
+
+	audio{
+		max-width: 100%; 
+	}
+
+
+	h1.head{
+		font-size: 5vw;
+	}
+
+	p.chat{
+		font-size: 3.5vw;
+	}
+
+	textarea.answer{
+		font-size: 3.5vw;
+	}
+
+	h5{
+		font-size: 3.5vw;
+	}
+
+	h5.evaluation{
+		font-size: 3.5vw;
+	}
+
+	h5.objectif{
+		font-size: 3.2vw;
+	}
+}
+

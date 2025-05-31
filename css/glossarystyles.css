@@ -1,0 +1,183 @@
+
+/* aspect général de la page */
+
+div.userContentOne{
+	margin-left: auto;
+	margin-right: auto;
+	width: 90%;
+	height: 100%;
+}
+
+div.letter{
+	width: 100%;
+	order: 0;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div.arrowWrapper{
+	display: inline-flex;
+	width: 100%;
+	justify-content: center;
+}
+
+div.letter h1.lettrine{
+	font-family: "Myriad Pro", Arial, Trebuchet, sans-serif;
+	font-size: 5vw;
+	color: rgb(4, 36, 124);
+}
+
+div.cardDeck{
+	display: inline-flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: space-around;
+	width:100%;
+	order: 1;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div.card{
+	border-style: none;
+	width: 30%;
+	padding: 5px;
+	margin: 10px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div.card img{
+	border-style: solid;
+	border-width: 2px;
+	border-color: rgb(4, 36, 124);
+	border-radius: 7px;
+	box-shadow: 4px 4px 8px #aaa;
+}
+
+div.card a{
+	text-decoration: none;
+	font-family: "Myriad Pro", Arial, Trebuchet, sans-serif;
+	font-weight: bold;
+	font-size: 2vw;
+	color: rgb(4, 36, 124);
+}
+
+div.card:hover{
+	transform: scale(1.1);
+	transition: 0.2s all;
+}
+
+div.card:hover img{
+	transition: 0.2s all;
+	border-color: rgb(204, 20, 44);
+}
+
+div.card:hover a{
+	transform: scale(1.1);
+	transition: 0.2s all;
+	color: rgb(204, 20, 44);
+}
+
+div.card:active a{
+	color: rgb(204, 20, 44);
+}
+
+div.menu{
+	padding: 10px;
+	width:90%;
+	order: 2;
+	margin-left: auto;
+	margin-right: auto;
+}
+/* boutons */
+input[type="submit"], input[type="button"]{
+	margin: 0 auto;
+	order: 3;
+	background-color: rgb(4, 36, 124);
+	color: #ffffff;
+	font-family: "Myriad Pro", Arial, Trebuchet, sans-serif;
+	font-size: 20px;
+	width: 70%;
+	height: 50px;
+	border-radius: 7px;
+	border: none;
+	display: block;
+}
+
+input[type="submit"]:hover, input[type="button"]:hover{
+	background-color: rgb(92, 116, 172);
+	transition: 0.3s;
+}
+
+input[type="submit"]:active, input[type="button"]:active{
+	background-color: rgb(4, 36, 124);
+	color: rgb(204, 20, 44);
+	transition: 0.1s;
+}
+
+.arrow-left{
+    width: 70px;
+    height: 62px;
+    background-color: rgb(92, 116, 172);
+    clip-path: polygon(50% 0, 25% 53%, 50% 100%, 50% 100%, 0 50%, 50% 0);
+}
+
+.arrow-right{
+	width: 70px;
+	height: 62px;
+	background-color: rgb(92, 116, 172);
+	clip-path: polygon(50% 0, 75% 53%, 50% 100%, 50% 100%, 100% 50%, 50% 0);
+}
+
+.arrow-left:hover{
+	background-color: rgb(4, 36, 124);
+	transition: 0.3s;
+}
+
+.arrow-right:hover{
+	background-color: rgb(4, 36, 124);
+	transition: 0.3s;
+}
+
+.arrow-right:active{
+	background-color: rgb(204, 20, 44);
+}
+
+.arrow-left:active{
+	background-color: rgb(204, 20, 44);
+}
+/* gestion responsive de la page et media queries */
+
+
+/* small screens */
+
+@media (max-width: 767px) and (orientation: portrait){
+
+	div.card{
+		width: 100%;
+	}
+
+	div.card a{
+		font-size: 6vw;
+	}
+
+	div.letter h1.lettrine{
+		font-size: 8vw;
+	}
+}
+
+@media (min-width: 450px) and (max-width: 600px) and (orientation: landscape){
+	div.card{
+		width: 48%;
+	}
+	div.card a{
+		font-size: 6vw;
+	}
+	div.letter h1.lettrine{
+		font-size: 8vw;
+	}
+}
+

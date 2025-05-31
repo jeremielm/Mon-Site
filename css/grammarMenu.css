@@ -1,0 +1,259 @@
+div.userContentOne{
+	margin-left: auto;
+	margin-right: auto;
+	width: 90%;
+	height: 100%;
+}
+
+div.titleOne,div.titleTwo,div.titleThree,div.titleFour{
+	width: 100%;
+	order: 0;
+	text-align: left;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 20px;
+}
+
+div.cardOne,div.cardTwo,div.cardthree,div.cardFour{
+	width: 32%;
+	margin: 10px;
+	padding: 5px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div.titleOne{
+	border-bottom: solid 2px rgb(178, 26, 26);
+	margin-bottom: 10px;
+}
+
+div.titleTwo{
+	border-bottom: solid 2px rgb(45, 178, 26);
+	margin-bottom: 10px;
+}
+
+div.titleThree{
+	border-bottom: solid 2px rgb(26, 121, 178);
+	margin-bottom: 10px;
+}
+
+div.titleFour{
+	border-bottom: solid 2px rgb(124, 26, 178);
+	margin-bottom: 10px;
+}
+
+h1.grammarTitleOne{
+	font-family: "Myriad Pro", Arial, Trebuchet, sans-serif;
+	font-size: 4vw;
+	color: rgb(178, 26, 26);
+}
+
+h1.grammarTitleTwo{
+	font-family: "Myriad Pro", Arial, Trebuchet, sans-serif;
+	font-size: 4vw;
+	color: rgb(45, 178, 26);
+}
+
+h1.grammarTitleThree{
+	font-family: "Myriad Pro", Arial, Trebuchet, sans-serif;
+	font-size: 4vw;
+	color: rgb(26, 121, 178);
+}
+
+h1.grammarTitleFour{
+	font-family: "Myriad Pro", Arial, Trebuchet, sans-serif;
+	font-size: 4vw;
+	color: rgb(124, 26, 178);
+}
+
+div.domaineNominal,div.domaineVerbal,div.adverbes,div.divers{
+	display: inline-flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: space-around;
+	width:100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div.cardOne,div.cardTwo,div.cardThree,div.cardFour{
+	border-style: none;
+	width: 30%;
+	padding: 5px;
+	margin: 10px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div.cardOne img,div.cardTwo img,div.cardThree img,div.cardFour img{
+	border-style: solid;
+	border-width: 2px;
+	border-radius: 7px;
+	box-shadow: 4px 4px 8px #aaa;
+}
+
+div.cardOne img{
+	border-color: rgb(178, 26, 26);
+}
+
+div.cardTwo img{
+	border-color: rgb(45, 178, 26);
+}
+
+div.cardThree img{
+	border-color: rgb(26, 121, 178);
+}
+
+div.cardFour img{
+	border-color: rgb(124, 26, 178);
+}
+
+div.cardOne a,div.cardTwo a,div.cardThree a,div.cardFour a{
+	text-decoration: none;
+	font-family: "Myriad Pro", Arial, Trebuchet, sans-serif;
+	font-weight: bold;
+	font-size: 2vw;
+}
+
+div.cardOne a,div.cardTwo a,div.cardThree a,div.cardFour a:hover{
+	transform: scale(1.2);
+}
+
+div.cardOne a{
+	color: rgb(178, 26, 26);
+}
+
+div.cardTwo a{
+	color: rgb(45, 178, 26);
+}
+
+
+div.cardThree a{
+	color: rgb(26, 121, 178);
+}
+
+
+div.cardFour a{
+	color: rgb(124, 26, 178);
+}
+
+div.cardOne:hover{
+	transform: scale(1.2);
+	transition: 0.2s all;
+}
+
+div.cardOne:hover a{
+	transition: 0.2s all;
+	color: rgb(4, 36, 124);
+}
+
+div.cardOne:hover img{
+	transition: 0.2s all;
+	border-color: rgb(4, 36, 124);
+}
+
+div.cardOne:hover{
+	transform: scale(1.1);
+	transition: 0.2s all;
+}
+
+div.cardOne:active a{
+	color: white;
+}
+
+div.cardTwo:hover{
+	transform: scale(1.2);
+	transition: 0.2s all;
+}
+
+div.cardTwo:hover a{
+	transition: 0.2s all;
+	color: rgb(4, 36, 124);
+}
+
+div.cardTwo:hover a{
+	transition: 0.2s all;
+	color: rgb(4, 36, 124);
+}
+
+div.cardTwo:hover img{
+	transition: 0.2s all;
+	border-color: rgb(4, 36, 124);
+}
+
+div.cardTwo:hover{
+	transform: scale(1.1);
+	transition: 0.2s all;
+}
+
+div.cardTwo:active a{
+	color: white;
+}
+
+div.cardThree:hover{
+	transform: scale(1.2);
+	transition: 0.2s all;
+}
+
+div.cardThree:hover a{
+	transition: 0.2s all;
+	color: rgb(4, 36, 124);
+}
+
+div.cardThree:hover a{
+	transition: 0.2s all;
+	color: rgb(4, 36, 124);
+}
+
+div.cardThree:hover img{
+	transition: 0.2s all;
+	border-color: rgb(4, 36, 124);
+}
+
+div.cardThree:hover{
+	transform: scale(1.1);
+	transition: 0.2s all;
+}
+
+div.cardThree:active a{
+	color: white;
+}
+
+div.cardFour:hover{
+	transform: scale(1.2);
+	transition: 0.2s all;
+}
+
+div.cardFour:hover a{
+	transition: 0.2s all;
+	color: rgb(4, 36, 124);
+}
+
+div.cardFour:hover a{
+	transition: 0.2s all;
+	color: rgb(4, 36, 124);
+}
+
+div.cardFour:hover img{
+	transition: 0.2s all;
+	border-color: rgb(4, 36, 124);
+}
+
+div.cardFour:hover{
+	transform: scale(1.1);
+	transition: 0.2s all;
+}
+
+div.cardFour:active a{
+	color: white;
+}
+
+
+
+
+
+
+
+

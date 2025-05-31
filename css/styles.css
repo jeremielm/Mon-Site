@@ -1,0 +1,1003 @@
+
+html{height:100%;}
+
+/*gestion des divs de la page d'accueil*/
+/*
+div{
+	
+	background-color: rgb(189, 200, 221);
+	color: #ffffff;
+	font-family: "Myriad Pro", Arial, Trebuchet, sans-serif;
+	font-size: 2vw;
+	padding: 10px;
+	margin: 20px;
+	display: block;
+
+} 
+*/
+
+
+/*gestion des divs*/
+
+div.topbox h4{
+	font-family: "Myriad Pro", Arial, Trebuchet, sans-serif;
+	font-size: 2vw;
+}
+
+
+div.topbox{
+	display: block;
+	margin: 20px;
+	background-color: rgb(189, 200, 221);
+	color: #ffffff;
+	font-family: "Myriad Pro", Arial, Trebuchet, sans-serif;
+	font-size: 1.5vw;
+	padding: 10px;
+	margin-top: 10 auto;
+	margin-left: auto;
+	margin-right: auto;
+	width: 60%;
+	box-shadow: 4px 4px 8px #aaa;
+	border-radius: 7px;
+}
+
+div.carousel{
+	display: block;
+	margin: 20px;
+	background-color: rgb(189, 200, 221);
+	color: #ffffff;
+	font-family: "Myriad Pro", Arial, Trebuchet, sans-serif;
+	font-size: 1.5vw;
+	padding: 10px;
+	margin-top: 10 auto;
+	margin-left: auto;
+	margin-right: auto;
+	width: 60%;
+	box-shadow: 4px 4px 8px #aaa;
+	border-radius: 7px;
+}
+
+div.middlebox{
+	display: block;
+	margin: 20px;
+	background-color: rgb(189, 200, 221);
+	color: #ffffff;
+	font-family: "Myriad Pro", Arial, Trebuchet, sans-serif;
+	font-size: 1.5vw;
+	padding: 10px;
+	margin-top: 10 auto;
+	margin-left: auto;
+	margin-right: auto;
+	width: 60%;
+	box-shadow: 4px 4px 8px #aaa;
+	border-radius: 7px;
+}
+
+div.middlebox div.objectifs{
+	display: block;
+	font-size: 2vw;
+	background-color: rgb(107, 128, 178);
+	color: #ffffff;
+	font-family: "Myriad Pro", Arial, Trebuchet, sans-serif;
+	margin: 20 auto;
+	margin: 20px;
+	padding: 10px;
+	border-radius: 7px;
+}
+
+
+div#content{
+	display: block;
+	font-size: 2vw;
+	background-color: rgb(189, 200, 221);
+	color: #ffffff;
+	font-family: "Myriad Pro", Arial, Trebuchet, sans-serif;
+	padding: 10px;
+	margin: 20px;
+	margin-top: 10 auto;
+	margin-left: auto;
+	margin-right: auto;
+	width: 60%;
+	box-shadow: 4px 4px 8px #aaa;
+	border-radius: 7px;
+
+}
+
+div#content div.boxtop{
+	display: block;
+	font-size: 2vw;
+	background-color: rgb(107, 128, 178);
+	color: #ffffff;
+	font-family: "Myriad Pro", Arial, Trebuchet, sans-serif;
+	margin: 20 auto;
+	margin: 20px;
+	padding: 10px;
+	border-radius: 7px;
+}
+div#content div.boxmiddle{
+	display: block;
+	font-size: 2vw;
+	background-color: rgb(107, 128, 178);
+	color: #ffffff;
+	font-family: "Myriad Pro", Arial, Trebuchet, sans-serif;
+	margin: 20 auto;
+	margin: 20px;
+	padding: 10px;
+	border-radius: 7px;
+}
+
+div#content div.boxbottom{
+	display: block;
+	font-size: 2vw;
+	background-color: rgb(107, 128, 178);
+	color: #ffffff;
+	font-family: "Myriad Pro", Arial, Trebuchet, sans-serif;
+	margin: 20 auto;
+	margin: 20px;
+	padding: 10px;
+	border-radius: 7px;
+}
+/*gestion des divs de la page utilisateur*/
+
+div.userContentOne{
+	background-color: #ffffff;
+	box-sizing: border-box;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 80%;
+	border-radius: 7px;
+}
+
+
+div.myPicture{
+	background-color: transparent;
+	width: 20%;
+	height: 20%;
+	padding: 5px;
+	margin: 5px;
+	border-radius: 7px;
+	/*flex: 1 1 auto; */
+}
+
+div.myStats{
+	background-color: rgba(189, 200, 221, 0.5);
+	box-shadow: 4px 4px 8px #aaa;
+	border-style: solid;
+	border-width: 2px;
+	border-color: rgb(4, 36, 124);
+	width: 60%;
+	padding: 5px;
+	margin: 5px;
+	font-family: "Myriad Pro", Arial, Trebuchet, sans-serif;
+	border-radius: 7px;
+	
+}
+
+div.turnScreen{
+	background-color: rgba(189, 200, 221, 0.5);
+	box-shadow: 4px 4px 8px #aaa;
+	border-style: solid;
+	border-width: 2px;
+	border-color: rgb(4, 36, 124);
+	width: 60%;
+	padding: 5px;
+	margin: 5px;
+	font-family: "Myriad Pro", Arial, Trebuchet, sans-serif;
+	border-radius: 7px;
+	display: none;
+}
+
+/* gestion du chat */
+
+div.chat{
+	background-color: rgba(189, 200, 221, 0.5);
+	box-shadow: 4px 4px 8px #aaa;
+	border-style: solid;
+	border-width: 2px;
+	border-color: rgb(4, 36, 124);
+	width: 16%;
+	padding: 5px;
+	margin: 5px;
+	font-family: "Myriad Pro", Arial, Trebuchet, sans-serif;
+	border-radius: 7px;
+}
+
+p.chat{
+	color: rgb(4, 36, 124);
+	font-family: "Myriad Pro", Arial, Trebuchet, sans-serif;
+	font-size: 1.5vw;
+}
+
+div.myWords{
+	background-color: rgba(189, 200, 221, 0.5);
+	box-shadow: 4px 4px 8px #aaa;
+	border-style: solid;
+	border-width: 2px;
+	border-color: rgb(4, 36, 124);
+	width: 49%;
+	padding: 5px;
+	margin: 5px;
+	font-family: "Myriad Pro", Arial, Trebuchet, sans-serif;
+	border-radius: 7px;
+}
+div.myLatestLessons{
+	background-color: rgba(189, 200, 221, 0.5);
+	box-shadow: 4px 4px 8px #aaa;
+	border-style: solid;
+	border-width: 2px;
+	border-color: rgb(4, 36, 124);
+	width: 49%;
+	padding: 5px;
+	margin: 5px;
+	font-family: "Myriad Pro", Arial, Trebuchet, sans-serif;
+	border-radius: 7px;
+}
+
+/*Gestion de la page des lessons (write listen read speak) */
+
+/* gestion du carousel de la page de leçons */
+
+
+div.carouselPanorama{
+	display: inline-flex;
+	flex-direction: row;
+	color: transparent;
+	width: 100%;
+	justify-content: space-around;
+}
+
+img{
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+div.contentLesson{
+	display: inline-flex;
+	background-color: transparent;
+	box-sizing: border-box;
+	border-top: solid 2px rgb(4, 36, 124);
+	padding: 5px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 95%;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+h1.levelTitle{
+	color: rgb(4, 36, 124);
+	font-size: 2vw;
+	font-family: "Myriad Pro", Arial, Trebuchet, sans-serif;
+}
+
+div.lesson{
+	width: 125px;
+	height: 20vh;
+	background-color: rgba(189, 200, 221, 0.5);
+	border-style: solid;
+	border-width: 2px;
+	border-color: rgb(4, 36, 124);
+	padding: 5px;
+	margin: 10px;
+	border-radius: 7px;
+	text-align: center;
+}
+
+div.lesson:hover{
+	border-color: #ffffff;
+	transform: scale(1.05);
+	transition: 0.3s all;
+
+}
+div.lesson:active{
+	border-color: rgb(204, 20, 44);
+}
+
+div.lesson div.lessonTitle a{
+	color: rgb(4, 36, 124);
+	font-size: 1.8vw;
+	font-family: "Myriad Pro", Arial, Trebuchet, sans-serif;
+	text-decoration: none;
+
+}
+div.lesson div.lessonTitle a:hover{
+	color: #ffffff;
+	transition: 0.3s all;
+}
+
+input[type="buttonRetour"]{
+	margin: 0 auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	background-color: rgba(189, 200, 221, 0.5);
+	border-style: solid;
+	border-width: 2px;
+	border-color: rgb(4, 36, 124);
+	text-align: center;
+	color: rgb(4, 36, 124);
+	font-family: "Myriad Pro", Arial, Trebuchet, sans-serif;
+	font-size: 20px;
+	width: 70%;
+	height: 50px;
+	border-radius: 7px;
+	display: flex;
+}
+input[type="buttonRetour"]:hover{
+	border-color: #ffffff;
+	transform: scale(1.05);
+	transition: 0.3s all;	
+}
+input[type="buttonRetour"]:active{
+	border-color: rgb(204, 20, 44);	
+}
+
+
+
+/* gestion du slider photo */
+
+div#carouselExampleCaptions.carousel.slide div.carousel-inner{
+	margin-left: -15px;
+	margin-right: auto;
+}
+div#carouselExampleCaptions.carousel.slide div.carousel-inner h5{
+	font-size: 2vw;
+	font-family: "Myriad Pro", Arial, Trebuchet, sans-serif;
+	text-align: center;
+	font-weight: bold;
+}
+
+div#carouselExampleCaptions.carousel.slide div.carousel-inner p{
+	font-size: 1.5vw;
+	font-family: "Myriad Pro", Arial, Trebuchet, sans-serif;
+	text-align: bottom;
+}
+
+
+
+div.carousel-caption.d-none.d-md-block{
+	background-color: transparent;
+}
+/*gestion des tableaux*/
+
+td{
+	border: 2px solid #ffffff;
+	padding: 5px;
+	font-size: 1.5vw;
+	text-align: center;
+	text-justify: inter-word;
+}
+
+
+
+table{
+	table-layout: fixed;
+	width: 100%;
+	border-collapse: collapse;
+	margin: auto;
+}
+
+div.horaires{
+	overflow: auto;
+	background-color: rgb(107, 128, 178);
+	padding: 20px;
+	margin: 20 auto;
+	border-radius: 7px;
+
+}
+th{
+	font-size: 1.5vw;
+	text-align: center;
+}
+td{
+	font-size: 1.5vw;
+}
+
+/*gestion des <li> de la page formations*/
+div#content div.boxtop li{
+	font-family: "Myriad Pro", Arial, Trebuchet, sans-serif;
+	font-size: 1.5vw;
+	text-align: justify;
+	text-justify: inter-word;
+	margin-left: 25px;
+	padding: auto;
+}
+
+div#content div.boxtop h5{
+	font-family: "Myriad Pro", Arial, Trebuchet, sans-serif;
+	margin-left: 60px;
+}
+
+div#content div.boxmiddle li{
+	font-family: "Myriad Pro", Arial, Trebuchet, sans-serif;
+	font-size: 1.5vw;
+	text-align: justify;
+	text-justify: inter-word;
+	margin-left: 25px;
+	padding: auto;
+}
+
+div#content div.boxmiddle h5{
+	font-family: "Myriad Pro", Arial, Trebuchet, sans-serif;
+	margin-left: 60px;
+
+}
+
+div#content div.boxbottom li{
+	font-family: "Myriad Pro", Arial, Trebuchet, sans-serif;
+	font-size: 1.5vw;
+	text-align: justify;
+	text-justify: inter-word;
+	margin-left: 25px;
+	padding: auto;
+}
+
+div#content div.boxbottom h5{
+	font-family: "Myriad Pro", Arial, Trebuchet, sans-serif;
+	margin-left: 60px;
+
+}
+/*gestion des paramètres du corps des pages*/
+
+p{
+	color: #ffffff;
+	font-family: "Myriad Pro", Arial, Trebuchet, sans-serif;
+	margin: 20px;
+	font-size: 1.5vw;
+	text-align: justify;
+	text-justify: inter-word;
+}
+p.accueil{
+	color: #ffffff;
+	font-family: "Myriad Pro", Arial, Trebuchet, sans-serif;
+	margin: 3px;
+	font-size: 1.5vw;
+	text-align: justify;
+	text-justify: inter-word;
+}
+
+h4{
+	font-family: "Myriad Pro", Arial, Trebuchet, sans-serif;
+	font-size: 2vw;
+	margin-left: 20px;
+}
+
+
+body{
+	background-color: #ffffff;
+	margin-right: 0;
+	padding: 0;
+	padding-bottom: 6rem;
+	min-height:100vh;
+	position: relative;
+	box-sizing:border-box;
+}
+
+h1.head{
+	font-family: "Myriad Pro", Arial, Trebuchet, sans-serif;
+	font-size: 5.9vw;
+	color: #ffffff;
+	text-align: center;
+	vertical-align: middle;
+
+}
+
+/*gestion des paramètres des headers et footers*/
+
+header{
+	background-color: rgb(204, 20, 44);
+	opacity: 0.9;
+	padding: 10px;
+}
+
+header a{
+	font-family:"Myriad Pro", Arial, Trebuchet, sans-serif;
+	color: #ffffff;
+	font-size: 1.5vw;
+	text-decoration: none;
+}
+
+
+header a:active{
+color: rgb(4, 36, 124);
+transition: 0.1s;
+}
+
+header a:hover{
+	text-decoration: underline;
+	
+}
+
+footer{
+	background-color: rgb(92, 116, 172);
+	border: 1px solid rgb(4, 36, 124);
+	position:absolute;
+	bottom:0;
+	width: 100%;
+}
+
+p.foot{
+	color: #ffffff;
+	font-family: "Myriad Pro", Arial, Trebuchet, sans-serif;
+}
+
+
+/* style de la searchbar */
+
+
+
+/* Media Queries Responsive settings */
+@media(min-width: 1024px) {
+	div.lesson div.lessonTitle a{font-size: 1.2vw;}
+
+	div.lesson{
+		width: 200px;
+		height: 25vh;
+	}
+}
+
+@media(min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
+
+		body{
+		padding-bottom: 4.5rem;
+	}
+
+	p{font-size: 2vw;}
+	header a{font-size: 2vw;}
+	div.topbox h4{font-size: 2.5vw;}
+	h4{font-size: 2.5vw;}
+	h5{font-size: 2.2vw;}
+	td{font-size: 1.9vw;}
+	th{font-size: 1.9vw;}
+	div#content div.boxtop li {font-size: 1.5vh;}
+	div#content div.boxmiddle li {font-size: 1.5vh;}
+	div#content div.boxbottom li {font-size: 1.5vh;}
+
+	div{
+		margin: 5px;
+		padding: 5px;
+	}
+
+	div.topbox{
+		padding: 5px;
+		margin-top: 3.5em;
+		margin-top: 10 auto;
+		margin-left: auto;
+		width: 60%;
+	}
+	div.carousel{
+		padding: 5px;
+		margin-top: 3.5em;
+		margin-top: 10 auto;
+		margin-left: auto;
+		width: 60%;
+	}
+	div.middlebox{
+		padding: 5px;
+		margin-top: 10 auto;
+		margin-left: auto;
+		width: 60%;
+	}
+	div.bottombox{
+		padding: 5px;
+		margin-top: 10 auto;
+		margin-left: auto;
+		margin-right: auto;
+		width: 60%;
+	}
+	div#content{
+		box-shadow:none;
+		padding: 5px;
+		margin-top: 2.7em;
+		margin-top: 10 auto;
+		margin-left: auto;
+		margin-right: auto;
+		width: 60%;
+	}
+
+
+
+	div#content div.boxtop{
+		margin: 5 auto;
+		padding: 5px;
+	}
+
+	div#content div.boxmiddle{
+		margin: 5 auto;
+		padding: 5px;
+		}
+	
+	div#content div.boxbottom{
+		margin: 5 auto;
+		padding: 5px;
+
+		}
+
+
+
+/*responsive des pages de leçons*/
+
+div.navigationLesson{
+		margin: 0px;
+	}
+div.navigationLesson nav ul{
+		margin-bottom: 0rem;
+	}
+div.lesson div.lessonTitle a{font-size: 1.8vw;}
+
+div.lesson{
+	height: 20vh;
+}
+
+/* Gestion de l'affichage responsive de l'espace utilisateur */
+
+
+div.userContentOne{
+	width: 100%;
+	}
+
+div.myStats{
+	width: 100%;
+	}
+
+div.myWords{
+	width: 48%;
+	}
+
+div.myLatestLessons{
+	width: 48%;
+	}
+
+div.chat{
+	display: none;
+	}
+
+p.chat{
+	font-size: 2vw;
+	}
+
+}
+
+@media(min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+
+
+/*responsive des pages de leçons*/
+div.navigationLesson{
+		margin: 0px;
+	}
+div.navigationLesson nav ul{
+		margin-bottom: 0rem;
+	}
+div.lesson{
+	height: 23vh;
+}
+
+div.lesson div.lessonTitle a{font-size: 1.5vw;}
+
+/* Gestion de l'affichage responsive de l'espace utilisateur */
+
+
+div.userContentOne{
+	width: 80%;
+	}
+
+div.myStats{
+	width: 100%;
+	}
+
+div.myWords{
+	width: 48%;
+	}
+
+div.myLatestLessons{
+	width: 48%;
+	}
+
+div.chat{
+	display: none;
+	}
+
+p.chat{
+	font-size: 2vw;
+	}
+
+
+}
+
+/* small screens */
+
+@media (max-width: 767px) and (orientation: portrait){
+
+	body{
+		padding-bottom: 3.2rem;
+	}
+	h1.head{
+		font-size: 5vh;
+	}
+/*
+	div{
+		margin: 5px;
+		padding: 5px;
+	} */
+
+	p{font-size: 1.5vh; }
+	h1{font-size: 4vh;}
+	h4{font-size: 2.5vh;}
+	h5{font-size: 2vh;}
+	td{font-size: 1.5vh;}
+	th{font-size: 1.5vh;}
+	div#content div.boxtop li {font-size: 1.5vh;}
+	div#content div.boxmiddle li {font-size: 1.5vh;}
+	div#content div.boxbottom li {font-size: 1.5vh;}
+	header a{font-size: 2.5vw;}
+
+	div.topbox h4{
+		font-size: 2.5vh;
+	}
+
+	div.topbox{
+		padding: 5px;
+		margin-top: 6em;
+		margin-top: 10 auto;
+		margin-left: auto;
+		margin-right: auto;
+		width: 100%;
+		border-radius: 0px;
+	}
+	div.carousel{
+		padding: 5px;
+		margin-top: 6em;
+		margin-top: 10 auto;
+		margin-left: auto;
+		margin-right: auto;
+		width: 100%;
+		border-radius: 0px;
+	}
+	div.middlebox{
+		padding: 5px;
+		margin-top: 10 auto;
+		margin-left: auto;
+		margin-right: auto;
+		width: 100%;
+		border-radius: 0px;
+	}
+	div.bottombox{
+		padding: 5px;
+		margin-top: 10 auto;
+		margin-left: auto;
+		margin-right: auto;
+		width: 100%;
+		border-radius: 0px;
+	}
+	div#content{
+		box-shadow:none;
+		padding: 5px;
+		margin-top: 4.5em;
+		margin-top: 10 auto;
+		margin-left: auto;
+		margin-right: auto;
+		width: 100%;
+		border-radius: 0px;
+	}
+
+	div#content div.boxtop{
+	margin: 5 auto;
+	padding: 5px;
+	}
+
+	div#content div.boxmiddle{
+		margin: 5 auto;
+		padding: 5px;
+	}
+
+	div#content div.boxbottom{
+		margin: 5 auto;
+		padding: 5px;
+	}
+
+
+/* responsive de la page de leçon */
+
+	div.navigationLesson{
+			margin: 0px;
+	}
+	div.navigationLesson nav ul{
+		margin-bottom: 0rem;
+	}
+	div.navigationLesson nav ul a{
+		font-size: 2vw;
+	}
+
+	div.lesson{
+		height: 25vh;
+	}
+
+	div.lesson div.lessonTitle a{
+		font-size: 2.8vw;
+	}
+
+	h1.levelTitle{
+		font-size: 3.5vw;
+	}
+
+/* gestion des propriétés responsive de l'espace utilisateur */
+
+	div.userContentOne{
+		width: 100%;
+		}
+
+	div.myStats{
+		display: none;
+		}
+
+	div.turnScreen{
+		display: flex;
+		width:100%;
+		order: 1;
+	}
+
+	div.myWords{
+		order: 2;
+		width: 100%;
+		}
+
+	div.myLatestLessons{
+		order: 2;
+		width: 100%;
+		}
+
+	div.chat{
+		display: none;
+		}
+
+	p.chat{
+		font-size: 2vw;
+		}
+
+}
+
+@media(max-width: 767px) and (orientation: landscape){
+
+	body{
+		padding-bottom: 3.3rem;
+	}
+	h4{font-size: 4vh;}
+	h5{font-size: 3vh;}
+
+	div{
+		margin: 5px;
+		padding: 5px;
+	}
+
+	div.topbox{
+		padding: 3px;
+		margin-top: 3.6em;
+		margin-top: 10 auto;
+		margin-left: auto;
+		margin-right: auto;
+		width: 80%;
+		border-radius: 0px;
+	}
+	div.middlebox{
+		padding: 5px;
+		margin-top: 10 auto;
+		margin-left: auto;
+		margin-right: auto;
+		width: 80%;
+		border-radius: 0px;
+	}
+	div.bottombox{
+		padding: 5px;
+		margin-top: 10 auto;
+		margin-left: auto;
+		margin-right: auto;
+		width: 80%;
+		border-radius: 0px;
+	}
+	div#content{
+		box-shadow:none;
+		padding: 5px;
+		margin-top: 2.6em;
+		margin-top: 10 auto;
+		margin-left: auto;
+		margin-right: auto;
+		width: 80%;
+		border-radius: 0px;
+	}
+
+
+	div#content div.boxtop{
+	margin: 5 auto;
+	padding: 5px;
+	}
+
+	div#content div.boxmiddle{
+		margin: 5 auto;
+		padding: 5px;
+		}
+
+	div#content div.boxbottom{
+		margin: 5 auto;
+		padding: 5px;
+		}
+
+
+
+/* responsive de la page de leçons */
+	
+	div.navigationLesson{
+		margin: 0px;
+	}
+
+	div.navigationLesson nav ul{
+		margin-bottom: 0rem;
+	}
+
+	div.lesson{
+		height: 50vh;
+	}
+
+	div.lesson div.lessonTitle a{
+	font-size: 2.4vw;
+	}
+
+	h1.levelTitle{
+		font-size: 3.5vw;
+	}
+/* gestion des propriétés responsive de l'espace utilisateur */
+
+
+	div.userContentOne{
+		width: 100%;
+		}
+
+	div.myStats{
+		order: 1;
+		width: 100%;
+		}
+
+	div.myWords{
+		order: 2;
+		width: 100%;
+		}
+
+	div.myLatestLessons{
+		order: 2;
+		width: 100%;
+		}
+
+	div.chat{
+		display: none;
+		}
+
+	p.chat{
+		font-size: 2vw;
+		}
+
+}
+
+/* l'écran bizarre de l'Iphone X */
+
+@media(width: 812px) and (orientation: landscape){
+	div.lesson{
+		height: 45vh;
+	}
+} 
+
+@media(width: 375px) and (orientation: portrait){
+	div.lesson{
+		height: 20vh;
+	}
+}
+
+/* l'écran bizarre de l'Ipad Pro */
+
+@media(width: 1024px) and (orientation: portrait){
+	div.lesson{
+		height: 15vh;
+	}
+}

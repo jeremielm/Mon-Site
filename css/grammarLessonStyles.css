@@ -1,0 +1,49 @@
+div.userContentOne{
+	margin-left: auto;
+	margin-right: auto;
+	width: 90%;
+}
+
+div.grammarLesson{
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	border-style: solid;
+	border-color: rgb(4, 36, 124);
+	margin-bottom: 20px;
+	margin-top: 20px;
+	padding: 10px;
+}
+
+div.grammarExercise{
+	background-color: rgba(189, 200, 221, 0.5);
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	border-style: solid;
+	border-color: rgb(4, 36, 124);
+	margin-bottom: 20px;
+	padding: 10px;
+}
+
+div.nextLesson{
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	border-style: solid;
+	border-color: rgb(4, 36, 124);
+	margin-bottom: 20px;
+	padding: 10px;
+}
+
+h5{
+	color: rgb(4, 36, 124);
+	font-family: "Myriad Pro", Arial, Trebuchet, sans-serif;
+	text-align: center;
+	font-size: 1.5vw;
+}
+
+p.consigne{
+	color: rgb(4, 36, 124);
+	font-weight: bold;
+}

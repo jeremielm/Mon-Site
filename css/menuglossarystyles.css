@@ -1,0 +1,49 @@
+div.menuGlossary{
+	display: block;
+	width: 100%;
+	padding: 5px;
+	margin-left: auto;
+	margin-right:auto;
+	background-color: transparent;
+	border-top: solid 2px rgb(4, 36, 124);
+	color: rgb(4, 36, 124);
+	text-align: center;
+}
+
+div.menuGlossary nav{
+	display: inline-block;
+	padding: 0;
+	margin: 0;
+	margin-left: -35px;
+	margin-right: auto;
+}
+
+div.menuGlossary nav ul{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div.menuGlossary nav ul li{
+	list-style-type: none;
+	float: left;
+}
+
+div.menuGlossary nav ul li a{
+	display: block;
+	padding: 5px;
+}
+
+div.menuGlossary ul a{
+	font-family: "Myriad Pro", Arial, Trebuchet, sans-serif;
+	color: rgb(4, 36, 124);
+	text-decoration: none;
+}
+
+div.menuGlossary nav ul li:hover a{
+	transform: scale(1.5);
+	transition: 0.2s all;
+}
+
+div.menuGlossary nav ul li:active a{
+	color: rgb(204, 20, 44);
+}
